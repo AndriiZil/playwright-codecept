@@ -6,7 +6,9 @@
   "scripts": {
     "prettier:check": "npx prettier --check .",
     "prettier:fix": "prettier --write .",
-    "test": "npx codeceptjs run"
+    "gpo": "conceptjs gpo",
+    "test": "npx codeceptjs run",
+    "test:e2e": "npx codeceptjs run e2e_test.js"
   },
   "repository": {
     "type": "git",
